@@ -19,3 +19,5 @@ if api_key:
             result = response.choices[0].message.content
             st.success('성공')
             st.write(result)
+
+123123
