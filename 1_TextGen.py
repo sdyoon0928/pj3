@@ -1,6 +1,6 @@
 import streamlit as stdkfjskjsk
 from openai import OpenAI
-
+dkdk
 st.title('OpenAI 텍스트 생성')
 
 api_key = st.text_input('Open API key', type='password')
