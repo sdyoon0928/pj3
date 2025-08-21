@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st t
 from openai import OpenAI
 
 st.title('OpenAI 텍스트 생성')
