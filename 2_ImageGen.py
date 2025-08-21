@@ -4,7 +4,7 @@ from openai import OpenAI
 st.title('OpenAI 이미지 생성')
 
 api_key = st.text_input('OpenAPI Key', type='password')
-
+11
 if api_key:
     client = OpenAI(api_key=api_key)
     prompt = st.text_input('이미지 프롬프트 입력', '귀여운 고양이와 강아지가 각각의 노트북을 쓰는 그림')
